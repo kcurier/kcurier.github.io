@@ -89,10 +89,18 @@ img {
   float:right;
   border: 10px solid #add8e6;
   z-index: -10;
-  margin-right: 65px;
+  margin-right: 57px;
   margin-bottom: 20px;
 }
 
 #education {
 clear:left;
+}
+
+#skills li {
+  padding-bottom: 15px;
+}
+
+#leadership-experience li {
+  padding-bottom: 15px;
 }

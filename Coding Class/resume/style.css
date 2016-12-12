@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans|Vollkorn');
+
+h1, h2 {
+  font-family: 'Vollkorn', serif;
+}
+
+#firsth2 {
+  border-bottom: 0px;
+}
+#secondh2 {
+  padding-right: 100px;
+  width: 500px;
+}
+
+h2 {
+margin-top: 40px;
+margin-bottom: 40px;
+border-bottom: 5px solid gray;
+margin-right: 100px;
+}
+
+
+
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+p, li {
+  margin-right: 100px;
+}
+
+nav {
+  width: 100%;
+  background-color: gray;
+  position: fixed;
+  font-family: 'Quattrocento Sans', sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav ul {
+        margin: 20px;
+        padding-left: 0;
+        text-align: center;
+      }
+
+nav li {
+        display: inline-block;
+      }
+
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25)
+}
+
+li {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+nav a, a {
+  color: black;
+}
+
+nav a:hover {
+  color: white;
+}
+
+a:hover {
+  color: #d3d3d3;
+}
+
+nav a:visited, a:visited {
+  color: #add8e6;
+}
+
+h1 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+
+nav li a {
+padding-left: 6px;
+}
+
+img {
+  float:right;
+  border: 10px solid #add8e6;
+  z-index: -10;
+  margin-right: 57px;
+  margin-bottom: 20px;
+}
+
+#education {
+clear:left;
+}
+
+#skills li {
+  padding-bottom: 15px;
+}
+
+#leadership-experience li {
+  padding-bottom: 15px;
+}

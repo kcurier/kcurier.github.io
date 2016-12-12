@@ -1,0 +1,192 @@
+/* home page */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display+SC');
+
+body {
+  background-image: url(img/bkgimg/brushed_alu_dark.png);
+}
+#container {
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#title h1 {
+  text-align:left;
+  margin: 0 130px;
+  font-family: 'Playfair Display SC', serif;
+}
+
+#title address {
+  margin-left: 130px;
+  margin-bottom: 50px;
+}
+
+
+nav ul li.resume{
+  float: left;
+  overflow: auto;
+  padding-left: 85px;
+}
+
+nav ul li.reporting{
+  float: left;
+  overflow: auto;
+  padding-left: 25px;
+}
+
+nav ul li.producing{
+  float: left;
+  overflow: auto;
+  padding-left: 85px;
+}
+
+nav ul li.other{
+  float: left;
+  overflow: auto;
+  padding-left: 25px;
+}
+
+nav ul li img:hover{
+  opacity: 0.5;
+}
+
+address{
+font-style: normal;
+}
+
+address a{
+  color:#000080;
+}
+
+address a:hover{
+  color:white;
+  text-decoration: underline;
+}
+
+header {
+  color: #000080;
+}
+
+#title nav ul li img {
+  border: 3px solid #000080;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+/* nav bar for other pages */
+
+div.bar-nav nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #A9A9A9;
+}
+
+
+div.bar-nav nav ul li {
+  display: inline-block;
+  margin: 20px 50px 25px 50px;
+}
+
+div.bar-nav nav ul li a{
+  color: #000080;
+  text-decoration: none;
+}
+
+div.bar-nav nav ul li a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+div.bar-nav nav ul li a:visited{
+  color: black;
+}
+
+ div.bar-nav nav ul li{
+  color: white;
+}
+
+iframe {
+  border: 3px solid #000080;
+}
+
+article {
+  padding-top: 20px;
+  overflow: auto;
+}
+
+article iframe {
+  float: left;
+  margin-right: 20px;
+}
+
+.descriptions p {
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  padding-top: 0;
+  text-align: left;
+  font-size: 50px;
+  font-family: 'Playfair Display SC', serif;
+  color: #000080;
+}
+/* styling for resume*/
+
+#firsth2 {
+  border-bottom: 0px;
+}
+#secondh2 {
+  padding-right: 100px;
+  width: 500px;
+}
+
+h2 {
+margin-top: 40px;
+margin-bottom: 40px;
+border-bottom: 5px solid #A9A9A9;
+margin-right: 100px;
+color: #000080;
+}
+
+
+p li {
+  margin-right: 100px;
+}
+
+
+nav li a {
+padding-left: 6px;
+}
+
+.picforresume {
+  float:right;
+  border: 10px solid #000080;
+  z-index: -10;
+  margin-right: 57px;
+  margin-bottom: 20px;
+}
+
+#education {
+clear:left;
+}
+
+#skills li {
+  padding-bottom: 15px;
+}
+
+#leadership-experience li {
+  padding-bottom: 15px;
+}
+
+.top {
+  color:#000080;
+}
+
+.top:hover {
+  color: white;
+}

@@ -24,11 +24,20 @@ h2 {
   display: none;
 }
 
-div.bar-nav {
+.bar-nav {
   display:none;
 }
 
-div.bar-nav nav ul li a{
+.bar-nav nav ul li a{
   text-decoration: none;
   color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.top {
+  display: none;
 }

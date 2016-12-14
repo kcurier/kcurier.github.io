@@ -83,13 +83,13 @@ div.bar-nav nav ul {
   margin: 0;
   padding: 0;
   background-color: #A9A9A9;
+  text-align: center;
 }
 
 
 div.bar-nav nav ul li {
   display: inline-block;
   margin: 20px 50px 25px 50px;
-  text-align: center;
   font-size: 18px;
 }
 
